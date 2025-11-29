@@ -15,11 +15,13 @@ export default function Services () {
             animationDuration={0.5}
             ease='back.inOut(2)'
             scrollStart='center bottom+=0%'
-            scrollEnd='bottom bottom-=40%'
+            scrollEnd='bottom bottom-=80%'
             stagger={0.02}
             >
             Our Services
             </Servieshead>
+
+            
             <ScrollStack>
               <ScrollStackItem className="relative w-[95%] max-w-sm mx-auto rounded-xl overflow-hidden">
               <img
